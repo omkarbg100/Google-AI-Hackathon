@@ -64,7 +64,8 @@ export class GeminiService {
       }
 
       const response = await ai.models.generateContent({
-        model: 'gemini-3-pro-preview', // High reasoning capability
+        //model: 'gemini-3-pro-preview', // High reasoning capability
+        model: "gemini-2.5-flash-lite",
         contents: {
           parts: parts
         }
