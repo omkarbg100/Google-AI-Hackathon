@@ -25,6 +25,7 @@ export class GeminiService {
   private getAI() {
     if (!this.ai) {
       const apiKey = process.env.API_KEY || localStorage.getItem('GEMINI_API_KEY');
+      console.log("Using API Key:", apiKey);
       if (!apiKey) {
         throw new Error("API Key not found");
       }
