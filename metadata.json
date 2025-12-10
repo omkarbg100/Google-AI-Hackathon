@@ -1,0 +1,9 @@
+{
+  "name": "AI Doctor Platform",
+  "description": "A comprehensive AI-powered healthcare platform featuring diagnosis, nutrition analysis, pharmacy finder, and emergency services.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
